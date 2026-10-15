@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {pages,sources,date} from '../src/content.mjs';
 const out='dist';fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});fs.cpSync('public',out,{recursive:true});
-const origin=(process.env.SITE_URL||'https://8787zzr-afk.github.io/ridecn').replace(/\/$/,'');
+const origin=(process.env.SITE_URL||'https://8787zzr-afk.github.io/ridecn').replace(/\/$/,'').replace(/^http:/,'https:');
 const basePath=(process.env.BASE_PATH||'').replace(/\/$/,'');
 if(basePath && (!basePath.startsWith('/') || basePath.includes('..'))) throw new Error('Invalid BASE_PATH');
 const labels={home:['Home','首页'],rules:['Road Rules','骑行规则'],safety:['Safety & Emergency','安全与求助'],chengdu:['Chengdu Guide','成都指南'],travel:['Travel Essentials','来华准备'],about:['About','关于'],disclaimer:['Disclaimer','免责声明'],privacy:['Privacy Policy','隐私政策'],terms:['Terms of Use','使用条款'],sources:['Sources & Updates','来源与更新'],contact:['Contact & Corrections','联系与纠错']};
