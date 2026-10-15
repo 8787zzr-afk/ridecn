@@ -1,0 +1,5 @@
+import './build.mjs';
+import http from 'node:http';import fs from 'node:fs';import path from 'node:path';
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml','.jpg':'image/jpeg','.xml':'application/xml','.txt':'text/plain'};
+const root=path.resolve('dist');
+http.createServer((req,res)=>{let name;try{name=decodeURIComponent(new URL(req.url,'http://localhost').pathname)}catch{res.writeHead(400);res.end('Bad request');return}let file=path.resolve(root,'.'+name);if(!file.startsWith(root+path.sep)&&file!==root){res.writeHead(403);res.end();return}try{if(fs.statSync(file).isDirectory())file=path.join(file,'index.html');const body=fs.readFileSync(file);res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream'});res.end(body)}catch{res.writeHead(404,{'Content-Type':'text/html; charset=utf-8'});res.end(fs.readFileSync(root+'/404.html'))}}).listen(Number(process.env.PORT||3000),'0.0.0.0',()=>console.log('RideCN on http://localhost:'+(process.env.PORT||3000)+' — restart after source edits.'));
