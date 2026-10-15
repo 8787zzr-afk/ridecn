@@ -1,6 +1,16 @@
 # RideCN 更新日志 / Changelog
 
-每次网站或仓库更新均在此记录，最新条目在前。同日的不同更新分别记录。仅记录实际完成的变更，不将普通维护描述为安全漏洞修复。
+网站与仓库的更新记录，按日期倒序排列。
+
+## 2026-10-16 · 仓库说明 / Repository documentation / Documentation du dépôt
+
+- 重写三语项目介绍，删去重复口号和首次交付提示。
+- 修正域名、联系渠道、语言数量和功能的过期说明。
+- 部署步骤移至 DEPLOYMENT.md，更新素材署名和验证记录。
+
+English: Rewrote the project introduction in all three languages, corrected outdated setup details, moved deployment notes to a separate file, and updated credits and validation records.
+
+Français : Réécriture de la présentation dans les trois langues, correction des anciennes informations de configuration, séparation des notes de déploiement et mise à jour des crédits et du compte rendu des vérifications.
 
 ## 2026-10-16 · 完整法语版本 / French edition / Version française
 

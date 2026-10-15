@@ -1,15 +1,19 @@
-# Validation · 2026-10-15
+# Validation
 
-Completed:
-- npm install --package-lock-only: success (no external runtime dependencies).
-- npm run build: success; 22 bilingual content pages, root entry, 404, sitemap, robots and assets.
-- npm test: success; 567 internal links/assets and linked anchors checked, paired SEO metadata, nonempty headings, emergency tel links and local image existence.
-- Source image visually inspected; depicts a mountain road and forest and agrees with the source location description.
+Last local check: 16 October 2026.
 
-Limitations:
-- No browser-control capability was available in the managed environment. No browser screenshots, iPhone/Android real-device tests or interactive browser assertions were run.
-- Menu/theme/checklist/report behavior is implemented but remains to be tested interactively on the deployed site.
-- No public GitHub repository, Cloudflare account or Tencent Cloud DNS change was made.
-- No road route was field-verified; do not treat city-area suggestions as verified routes.
-- Automated link checks validate internal links. Official content sources were opened via web research; external links are not continuously monitored.
-- Policy text is an educational-project draft, not a professional legal opinion.
+`npm run build` and `npm test` passed for the English, Chinese and French edition:
+
+- 33 content pages, the language redirect and a shared 404 page.
+- 916 internal links, assets and linked anchors.
+- Language metadata and links to the same page in each language.
+- Article fields, French interface strings and source labels.
+- Emergency phone links and contact email links.
+- One analytics script per content page; none on the redirect.
+- Language preferences, checklist status, menu and theme event handlers in a simulated document.
+
+The custom-domain and GitHub project-path builds passed. GitHub Actions successfully deployed the French edition in commit `531e804`.
+
+These checks do not establish visual correctness on a phone or in a browser. No real-device review or independent French-language review has been completed. Automated translation checks find missing fields, not errors in meaning.
+
+Internal link checks do not monitor external websites. The content includes source review dates, but local road access and the Chengdu route suggestions have not been verified in the field. The policy text has not received a professional legal review.
