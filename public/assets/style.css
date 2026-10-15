@@ -5,3 +5,11 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}@media print{header,.toc,footer,.hero-buttons,.header-tools,.report{display:none}.wrap{width:100%}.article-layout{display:block}.calls a{border:1px solid #888}.page-intro{padding-top:0}body{color:#000;background:white}}
 
 .contact-card .contact-email{display:block;width:fit-content;font-size:clamp(20px,4vw,29px);font-weight:500;letter-spacing:-.6px;color:var(--green);margin:22px 0 24px;overflow-wrap:anywhere}.contact-card .contact-note{margin:18px 0 0;max-width:570px;font-size:12px}.inline-email{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+
+/* Three-language navigation stays usable on narrow screens. */
+.language a{padding:8px 2px;color:var(--muted)}
+.language a.selected{color:var(--ink);font-weight:700;text-decoration:underline;text-underline-offset:4px}
+html[lang="fr"] .hero h1{font-size:clamp(46px,6.4vw,90px)}
+@media(max-width:380px){.header-inner{gap:8px}.header-tools{gap:8px}.language{gap:3px}}
+
+@media(min-width:851px){html[lang="fr"] #main-nav{flex-wrap:wrap;justify-content:center;row-gap:6px}html[lang="fr"] #main-nav a{font-size:12px}}

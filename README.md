@@ -7,17 +7,17 @@
 Your Independent Guide to Cycling in China  
 Ride Safely. Explore Freely. Discover China.
 
-独立高中生发起的非商业教育信息项目。英文默认，简体中文完整对应。
+独立高中生发起的非商业教育信息项目。英文默认，简体中文、法语完整对应。
 
 ## 访问统计 / Website analytics
 
-全部中英文内容页面包含 Cloudflare Web Analytics。站长可在 Cloudflare 的 Web Analytics 中选择 ridecn.net 查看访问统计；部署之前的数据不能补记。语言跳转入口及 404 不加载统计。不要同时启用另一份自动注入脚本，以免重复统计。浏览器或网络拦截可能导致漏记，访问量不等于准确人数。隐私政策已同步中英文。
+全部英文、中文和法文内容页面包含 Cloudflare Web Analytics。站长可在 Cloudflare 的 Web Analytics 中选择 ridecn.net 查看访问统计；部署之前的数据不能补记。语言跳转入口及 404 不加载统计。不要同时启用另一份自动注入脚本，以免重复统计。浏览器或网络拦截可能导致漏记，访问量不等于准确人数。隐私政策已同步英文、中文和法文。
 
-All English and Chinese content pages include Cloudflare Web Analytics. Select ridecn.net in Cloudflare Web Analytics to review statistics. Earlier visits cannot be recovered. The redirect and 404 are excluded. Avoid duplicate automatic injection. Blockers or network failures may prevent measurement; visits are not an exact count of people. Both privacy notices describe the service.
+All English, Chinese and French content pages include Cloudflare Web Analytics. Select ridecn.net in Cloudflare Web Analytics to review statistics. Earlier visits cannot be recovered. The redirect and 404 are excluded. Avoid duplicate automatic injection. Blockers or network failures may prevent measurement; visits are not an exact count of people. All three privacy notices describe the service.
 
 ## 当前交付与边界
 
-- 11 类页面 × 2 种语言，共 22 个静态内容页面；另有语言入口、404、站点地图。
+- 11 类页面 × 3 种语言，共 33 个静态内容页面；另有语言入口、404、站点地图。
 - 页面：Home、Road Rules、Safety & Emergency、Chengdu、Travel Essentials、About、Disclaimer、Privacy、Terms、Sources、Contact。
 - `/en/` 与 `/zh/` 独立 URL；语言切换保留当前页面。
 - 响应式布局、移动菜单、深浅色切换、紧急电话 `tel:`、本地准备清单、纠错报告生成器。
@@ -158,3 +158,9 @@ v1.0 · 2026-10-15。详细验证范围见 VALIDATION.md。照片许可见 ASSET
 - 隐私说明已改为 GitHub Pages 的平台日志行为。
 - `ridecn.net` 尚未绑定。GitHub Pages 与 Cloudflare Pages 是两个可选托管方案，无需同时使用。
 - 本仓库 README 较早的“未创建 GitHub 仓库”和 Sites 隐私描述仅记录首次交付状态，以本节为准。
+
+## 法语维护 / French maintenance
+
+法语地址为 `/fr/`，法语文章位于 `src/fr.mjs`，界面翻译位于 `src/fr-ui.json`。新增或修改页面时，须同步所有已发布语言。构建在缺少法语界面翻译或章节数量不一致时失败；`npm test` 检查三语同页切换、SEO、联系与统计脚本。语言偏好只存于本地浏览器。
+
+French pages use `/fr/`. Update French articles in `src/fr.mjs` and UI translations in `src/fr-ui.json` whenever source content changes. Builds reject missing UI strings and section-count mismatches. Tests check same-page switching, SEO, contacts and analytics across all three languages. Preferences stay in the browser.

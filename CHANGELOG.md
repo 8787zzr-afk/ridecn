@@ -2,6 +2,17 @@
 
 每次网站或仓库更新均在此记录，最新条目在前。同日的不同更新分别记录。仅记录实际完成的变更，不将普通维护描述为安全漏洞修复。
 
+## 2026-10-16 · 完整法语版本 / French edition / Version française
+
+- 新增 `/fr/` 的全部 11 类页面，完整翻译正文、导航、按钮、求助短句、来源说明、联系页、隐私政策及其他法律页面。
+- 三语切换保留当前页面，保存本地语言偏好；增加法语 SEO、hreflang、站点地图及 404 返回入口。
+- 同步中英文语言说明，法语内容页接入相同的 Cloudflare 统计。
+- 静态构建、三语链接与章节完整性、语言偏好、清单状态和菜单事件检查通过；兼容自定义域名及 GitHub 项目路径。未进行浏览器视觉或真人法语校审。
+
+English: Added all 11 French page types with translated content, interface, emergency phrases, sources and policies; preserved the current page during language switches, added French SEO and local preferences, and extended multilingual checks. No browser visual review or independent native-speaker review was performed.
+
+Français : Ajout des 11 types de pages en français, avec textes, interface, phrases d’urgence, sources et politiques traduits. Le changement de langue conserve la page actuelle. Ajout du référencement français, des préférences locales et de contrôles multilingues. Aucun examen visuel dans un navigateur ni relecture indépendante par un francophone n’a été effectué.
+
 ## 2026-10-15 · 访问统计 / Website analytics
 
 - 在全部 22 个中英文内容页面加入 Cloudflare Web Analytics，使用站长提供的站点标识。
