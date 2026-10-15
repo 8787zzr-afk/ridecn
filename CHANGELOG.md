@@ -2,6 +2,15 @@
 
 每次网站或仓库更新均在此记录，最新条目在前。同日的不同更新分别记录。仅记录实际完成的变更，不将普通维护描述为安全漏洞修复。
 
+## 2026-10-15 · 访问统计 / Website analytics
+
+- 在全部 22 个中英文内容页面加入 Cloudflare Web Analytics，使用站长提供的站点标识。
+- 语言跳转入口不加载统计，避免重复统计；不改变现有 GitHub Pages 托管和域名配置。
+- 同步更新中英文隐私政策、信息来源及站内更新记录。
+- 验证：静态构建、内部链接、双语完整性、每页唯一统计脚本及标识检查通过。Cloudflare 后台数据入库须由站长确认。
+
+English: Added Cloudflare Web Analytics to all 22 translated content pages, excluded the language redirect, and updated both privacy notices and source records. Build, internal links, localization and beacon checks passed. Dashboard ingestion requires the owner’s confirmation.
+
 ## 2026-10-15 · 完整翻译检查 / Translation completeness
 
 - 核对正式网站中文联系页，确认 Zhou、联系邮箱、邮件按钮及说明已为中文版本。

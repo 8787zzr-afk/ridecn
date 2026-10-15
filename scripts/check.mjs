@@ -25,3 +25,18 @@ for(const [lang,heading,button] of [['en','Get in touch with Zhou','Email Zhou']
  assert(privacy.includes('mailto:8787zzr@gmail.com'),`${lang}: missing privacy contact`);
 }
 console.log('PASS: complete bilingual article fields, source labels, contact UI and privacy contact.');
+
+// Each translated content page loads one beacon; the redirect loads none.
+for(const file of htmls.filter(file=>/\/(en|zh)\//.test(file))){
+ const html=fs.readFileSync(file,'utf8');
+ assert.equal((html.match(/https:\/\/static\.cloudflareinsights\.com\/beacon\.min\.js/g)||[]).length,1,`${file}: expected one analytics script`);
+ const config=html.match(/data-cf-beacon='([^']+)'/);
+ assert.equal(JSON.parse(config[1]).token,'88fe31aba4ad41ab904bec02554be331');
+}
+assert(!fs.readFileSync(`${root}/index.html`,'utf8').includes('beacon.min.js'));
+for(const lang of ['en','zh']){
+ const policy=fs.readFileSync(`${root}/${lang}/privacy/index.html`,'utf8');
+ assert(policy.includes('Cloudflare Web Analytics'));
+ assert(!policy.includes('or analytics scripts') && !policy.includes('或统计脚本'));
+}
+console.log('PASS: single analytics beacon on 22 content pages, redirect excluded, both privacy notices updated.');

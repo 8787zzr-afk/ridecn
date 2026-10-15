@@ -9,13 +9,19 @@ Ride Safely. Explore Freely. Discover China.
 
 独立高中生发起的非商业教育信息项目。英文默认，简体中文完整对应。
 
+## 访问统计 / Website analytics
+
+全部中英文内容页面包含 Cloudflare Web Analytics。站长可在 Cloudflare 的 Web Analytics 中选择 ridecn.net 查看访问统计；部署之前的数据不能补记。语言跳转入口及 404 不加载统计。不要同时启用另一份自动注入脚本，以免重复统计。浏览器或网络拦截可能导致漏记，访问量不等于准确人数。隐私政策已同步中英文。
+
+All English and Chinese content pages include Cloudflare Web Analytics. Select ridecn.net in Cloudflare Web Analytics to review statistics. Earlier visits cannot be recovered. The redirect and 404 are excluded. Avoid duplicate automatic injection. Blockers or network failures may prevent measurement; visits are not an exact count of people. Both privacy notices describe the service.
+
 ## 当前交付与边界
 
 - 11 类页面 × 2 种语言，共 22 个静态内容页面；另有语言入口、404、站点地图。
 - 页面：Home、Road Rules、Safety & Emergency、Chengdu、Travel Essentials、About、Disclaimer、Privacy、Terms、Sources、Contact。
 - `/en/` 与 `/zh/` 独立 URL；语言切换保留当前页面。
 - 响应式布局、移动菜单、深浅色切换、紧急电话 `tel:`、本地准备清单、纠错报告生成器。
-- 网站没有注册、数据库、统计追踪或表单提交。联系渠道尚未配置，报告只在设备中生成，不会发送。
+- 网站没有注册、数据库或表单提交。联系与纠错通过 Zhou 的邮箱进行；访问统计使用 Cloudflare Web Analytics，详见上方说明及双语隐私政策。
 - 成都内容是区域及准备指南，不是实测路线。未发布虚构距离、爬升、GPX 或实时状态。
 - 当前 Sites 地址与正式域名是两个独立部署；**没有声称 ridecn.net 已绑定，也没有创建你个人 GitHub 账户中的 ridecn 仓库。**
 - Sites 预览保持私密，托管平台可能要求登录；独立 Cloudflare 静态部署本身不需要访客登录。
