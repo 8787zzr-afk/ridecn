@@ -1,5 +1,9 @@
 # RideCN
 
+当前网站：https://ridecn.net · 联系人：Zhou · 邮箱：8787zzr@gmail.com
+
+每次更新请同步维护 [CHANGELOG.md](CHANGELOG.md)，维护规则见 [AGENTS.md](AGENTS.md)。以下首次交付和部署历史中的未配置说明，以当前网站及更新日志为准。
+
 Your Independent Guide to Cycling in China  
 Ride Safely. Explore Freely. Discover China.
 
