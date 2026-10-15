@@ -5,3 +5,10 @@
 - Keep English and Simplified Chinese content consistent. Project contact is Zhou at 8787zzr@gmail.com. Email links open the visitor’s email application; never imply that a mailto click has sent a message.
 - Update the privacy notice when changing collection, contact handling or analytics behavior.
 - Run npm run build and npm test for website changes, plus checks relevant to the change. Report verification limitations accurately.
+
+## Complete localization is required
+
+- Every published language must cover every page and section, including navigation, footer, forms, buttons, status/error messages, accessibility labels, image alt text, SEO metadata, source explanations, legal policies and update notices.
+- When changing any content or feature, update all currently published languages in the same release. When adding a language, translate the entire website before making it selectable; do not publish partial translations or silently fall back to another language.
+- Names (RideCN, Zhou), email addresses, URLs, source document titles where necessary, and intentionally bilingual emergency phrases may remain in their original form. Explain source links in the selected language.
+- Run translation completeness checks and inspect the actual deployed pages in every published language. Automated presence checks do not replace a human-quality review of meaning and natural phrasing.
