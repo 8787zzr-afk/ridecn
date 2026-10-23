@@ -49,6 +49,7 @@ The build writes static files to `dist/`. The deployed workflow uses Node.js 22.
 | `src/content.mjs` | English and Chinese articles, sources and review dates |
 | `src/fr.mjs` | French articles and source labels |
 | `src/fr-ui.json` | French interface text |
+| `src/purpose.json` | Homepage project origins in all three languages |
 | `scripts/build.mjs` | Page templates, navigation, metadata and static output |
 | `scripts/dev.mjs` | Local server |
 | `scripts/check.mjs` | Page, link, translation and analytics checks |

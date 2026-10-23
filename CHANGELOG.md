@@ -2,6 +2,17 @@
 
 网站与仓库的更新记录，按日期倒序排列。
 
+## 2026-10-24 · 首页建站初衷 / Why we started / Origines du projet
+
+- 首页加入完整建站初衷，以提供的中文文案为基础，补齐英文和法语。
+- 用六个章节及页内目录替换原有简短介绍，保留结尾寄语，提供项目介绍与联系入口。
+- 为长文调整手机端、桌面端与深浅色模式的排版，并检查三语章节与段落完整性。
+- 验证：正式域名与 GitHub 项目路径构建、链接及完整性检查通过。未进行浏览器视觉验收。
+
+English: Added the full project origins to the homepage in Chinese, English and French, replacing the short introduction with six chapters, a contents list and links to the project and contact pages. Added responsive reading styles and checks for all translated paragraphs.
+
+Français : Ajout des origines du projet sur la page d’accueil dans les trois langues. La courte présentation est remplacée par six chapitres, un sommaire et des liens vers le projet et le contact. Ajout de styles de lecture adaptatifs et de contrôles de présence des paragraphes traduits.
+
 ## 2026-10-16 · 仓库说明 / Repository documentation / Documentation du dépôt
 
 - 重写三语项目介绍，删去重复口号和首次交付提示。

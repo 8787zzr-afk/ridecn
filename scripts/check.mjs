@@ -63,3 +63,22 @@ assert(fs.readFileSync(`${root}/index.html`,'utf8').includes("fr:'"+base+"/fr/'"
 console.log('PASS: French sections and source labels, same-page switches and SEO for all three languages.');
 
 await import('./check-interactions.mjs');
+
+// The long-form homepage introduction must be complete in every published language.
+const purpose=JSON.parse(fs.readFileSync('src/purpose.json','utf8'));
+for(const lang of ['en','zh','fr']){
+ const entry=purpose[lang],html=fs.readFileSync(`${root}/${lang}/index.html`,'utf8');
+ const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+ assert.equal(entry.sections.length,6,`${lang}: missing purpose chapters`);
+ assert.equal(entry.intro.length,purpose.en.intro.length,`${lang}: missing introductory paragraphs`);
+ for(const field of ['label','title','motto','contactLabel','aboutLabel','contentsLabel'])assert(html.includes(escape(entry[field])),`${lang}: missing purpose ${field}`);
+ for(const text of entry.intro)assert(html.includes(`<p>${escape(text)}</p>`),`${lang}: missing purpose introduction`);
+ for(const [n,section] of entry.sections.entries()){
+  assert.equal(section.id,purpose.en.sections[n].id);
+  assert.equal(section.paragraphs.length,purpose.en.sections[n].paragraphs.length,`${lang}: missing paragraphs in ${section.id}`);
+  assert(html.includes(`<h3 id="purpose-heading-${section.id}">${escape(section.title)}</h3>`));
+  for(const text of section.paragraphs)assert(html.includes(`<p>${escape(text)}</p>`),`${lang}: missing purpose paragraph`);
+ }
+ assert.equal((html.match(/id="our-purpose"/g)||[]).length,1);
+}
+console.log('PASS: all six homepage purpose chapters, introductory paragraphs and sign-off in English, Chinese and French.');

@@ -1,0 +1,248 @@
+{
+  "zh": {
+    "label": "建站初衷",
+    "title": "RideCN — 让每一段跨越山海的骑行，都成为连接世界的旅程",
+    "intro": [
+      "RideCN 是一个面向全球骑行爱好者的非营利性骑行信息指南网站。",
+      "我们希望通过整理和分享与中国骑行旅行相关的实用信息，帮助来自世界各地的骑行者更轻松地了解中国、规划路线、适应当地环境，并在骑行过程中发现中国独特的自然风光与人文魅力。",
+      "无论你是第一次来到中国，正在计划一场跨越城市与山川的骑行旅行，还是已经拥有丰富的国际骑行经验，我们都希望 RideCN 能为你提供有价值的信息、清晰的指引，以及来自中国骑行爱好者的友善与支持。"
+    ],
+    "sections": [
+      {
+        "id": "discover-china",
+        "title": "从了解中国开始",
+        "paragraphs": [
+          "对于许多外国骑行者来说，中国是一个充满吸引力，却又可能略显陌生的骑行目的地。",
+          "这里有辽阔的高原、绵延的山脉、繁华的城市和宁静的乡村，也有丰富多样的地方文化与生活方式。然而，不同的交通规则、语言环境、支付习惯，以及获取骑行信息的渠道，都可能成为旅途中的挑战。",
+          "在 RideCN，我们希望将这些分散的信息整理成简单、清晰且易于查阅的指南。",
+          "从入境准备、交通规则、路线规划，到住宿、移动支付、语言沟通、骑行安全及紧急情况处理，我们致力于帮助国际骑行者提前了解在中国骑行可能遇到的实际问题。",
+          "我们希望让更多人能够将时间留给真正重要的事情——享受骑行、欣赏风景，以及体验旅途中每一次意想不到的相遇。"
+        ]
+      },
+      {
+        "id": "shared-language",
+        "title": "骑行，是一种跨越语言的交流",
+        "paragraphs": [
+          "我们始终相信，骑行不仅是一项运动或一种旅行方式，更是一座连接不同文化、语言与生活经历的桥梁。",
+          "即使来自不同的国家，说着不同的语言，骑行者之间依然能够通过共同的热爱建立联系。",
+          "一次路边的短暂交谈，一段偶然同行的旅程，或是来自陌生骑友的帮助，都可能成为旅行中最珍贵的回忆。",
+          "中国拥有不断发展的骑行文化与充满活力的骑行社群。我们希望通过 RideCN，让更多外国骑行者有机会了解中国骑行者的生活、文化与热情，也让来自不同地方的人们通过自行车建立更多联系。",
+          "在我们看来，骑行的意义不仅在于抵达终点，也在于沿途认识的人，以及那些因共同热爱而产生的理解与友谊。"
+        ]
+      },
+      {
+        "id": "accessible-information",
+        "title": "让信息不再成为探索的障碍",
+        "paragraphs": [
+          "我们知道，前往一个陌生的国家骑行，并不总是一件容易的事。",
+          "语言障碍、文化差异、交通环境以及旅行中的不确定性，都可能让原本令人期待的旅程变得复杂。",
+          "尤其对于独自旅行的骑行者而言，一些看似简单的问题，例如如何使用中国的移动支付、怎样乘坐公共交通携带自行车，或是在紧急情况下向谁求助，都可能需要花费大量时间寻找答案。",
+          "RideCN 的建立，正是希望减少这些不必要的困难。",
+          "我们希望把自己了解的中国骑行信息分享给更多人，让第一次来到中国的骑行者少一些困惑，让已经熟悉中国的骑行者也能找到有用的参考。",
+          "我们不希望任何人仅仅因为语言或信息的障碍，就放弃一次探索中国的机会。"
+        ]
+      },
+      {
+        "id": "started-with-cycling",
+        "title": "一个因热爱而开始的项目",
+        "paragraphs": [
+          "RideCN 源于对自行车运动的热爱，以及一个简单的想法：如果外国骑行者希望来到中国，我们能否让他们的旅程变得更容易一些？",
+          "作为一个非营利性项目，RideCN 并不追求商业利益，而是希望通过分享实用信息，帮助更多国际骑行者认识中国，并促进不同国家和地区骑行爱好者之间的交流。",
+          "我们知道，一个网站无法解答旅行中的所有问题，也无法消除所有文化与语言差异。",
+          "但我们相信，即使只是一条有用的建议、一次及时的信息分享，或是一份能够帮助他人解决困难的指南，也可能让一段陌生的旅程变得更加顺利。",
+          "每一份微小的帮助，都有它的意义。"
+        ]
+      },
+      {
+        "id": "grow-together",
+        "title": "与世界各地的骑行者共同完善",
+        "paragraphs": [
+          "RideCN 仍在不断发展。",
+          "中国的交通政策、旅行环境与骑行相关信息可能随时间发生变化，因此我们也将持续更新和完善网站内容，努力提供准确、实用且容易理解的信息。",
+          "我们欢迎来自世界各地的骑行爱好者分享自己的经历、提出建议，或帮助我们发现并修正过时的信息。",
+          "无论你是曾经到访中国的国际骑行者，还是愿意分享当地经验的中国骑友，你的意见都可能帮助下一位准备踏上旅程的人。",
+          "我们希望 RideCN 不仅是一个提供信息的网站，也能成为不同文化背景的骑行者分享经验、相互理解的起点。"
+        ]
+      },
+      {
+        "id": "closer-through-cycling",
+        "title": "让世界因骑行而更加亲近",
+        "paragraphs": [
+          "你不需要在出发前了解中国的一切，也不必独自寻找旅途中的每一个答案。",
+          "我们希望 RideCN 能够成为你探索中国的一个可靠起点，让你带着更多信心与期待，踏上属于自己的骑行旅程。",
+          "无论你的目的地是壮丽的高山、遥远的公路，还是一座从未到访的城市，我们都希望你能在骑行中发现属于自己的故事。",
+          "感谢你来到 RideCN。",
+          "愿你在中国的每一公里，都能收获新的风景、友谊与理解。"
+        ]
+      }
+    ],
+    "motto": "跨越边界，因骑行而相连。",
+    "contactLabel": "分享经历或提出建议",
+    "aboutLabel": "关于 RideCN",
+    "contentsLabel": "阅读建站初衷"
+  },
+  "en": {
+    "label": "Why we started RideCN",
+    "title": "RideCN — Every ride across mountains and seas can be a journey that connects the world",
+    "intro": [
+      "RideCN is a not-for-profit cycling information guide for riders around the world.",
+      "By gathering and sharing practical information about cycling travel in China, we hope to help riders from different countries get to know China, plan their routes, adapt to local conditions, and discover its distinctive landscapes and culture along the way.",
+      "Whether this is your first visit to China, you are planning a journey across cities and mountains, or you already have years of international cycling experience, we hope RideCN offers useful information, clear guidance, and a friendly welcome from fellow cyclists in China."
+    ],
+    "sections": [
+      {
+        "id": "discover-china",
+        "title": "Start by getting to know China",
+        "paragraphs": [
+          "For many international riders, China is an appealing cycling destination that may also feel unfamiliar.",
+          "It has vast plateaus, long mountain ranges, busy cities and quiet villages, alongside a wide variety of local cultures and ways of life. Different road rules, languages, payment habits and sources of cycling information can also make a journey more challenging.",
+          "At RideCN, we want to bring this scattered information together in guides that are simple, clear and easy to consult.",
+          "From entry preparation, road rules and route planning to accommodation, mobile payments, communication, cycling safety and emergencies, our aim is to help international riders understand the practical questions they may face before they arrive.",
+          "We hope this leaves more time for the things that matter: enjoying the ride, taking in the scenery and appreciating the unexpected encounters along the way."
+        ]
+      },
+      {
+        "id": "shared-language",
+        "title": "Cycling connects us across languages",
+        "paragraphs": [
+          "We believe cycling is more than a sport or a way to travel. It can also connect people with different cultures, languages and life experiences.",
+          "Even when riders come from different countries and do not speak the same language, a shared love of cycling can bring them together.",
+          "A brief conversation by the roadside, an unplanned stretch of riding together, or help from a cyclist you have just met can become one of a trip’s most treasured memories.",
+          "China has a growing cycling culture and active riding communities. Through RideCN, we hope more international riders can get to know the lives, culture and enthusiasm of Chinese cyclists, and that people from different places can find more connections through their bikes.",
+          "For us, a ride is about more than reaching the finish. It is also about the people you meet and the understanding and friendship that grow from a shared interest."
+        ]
+      },
+      {
+        "id": "accessible-information",
+        "title": "Information should not stand in the way of exploring",
+        "paragraphs": [
+          "We know that travelling to an unfamiliar country to ride is not always easy.",
+          "Language barriers, cultural differences, traffic conditions and uncertainty can complicate a trip you have been looking forward to.",
+          "Especially for someone travelling alone, apparently simple questions can take a long time to answer: how to use mobile payments in China, how to take a bicycle on public transport, or who to call in an emergency.",
+          "RideCN began as a way to reduce these avoidable difficulties.",
+          "We want to share what we know about cycling in China so that first-time visitors feel less confused and riders who already know the country can still find useful reference information.",
+          "We do not want language or a lack of information alone to stop anyone from taking the opportunity to explore China."
+        ]
+      },
+      {
+        "id": "started-with-cycling",
+        "title": "A project that began with a love of cycling",
+        "paragraphs": [
+          "RideCN grew out of a love of cycling and a simple question: if riders from abroad want to visit China, could we make their journey a little easier?",
+          "As a not-for-profit project, RideCN does not seek commercial gain. By sharing practical information, we hope to help more international riders get to know China and encourage exchanges between cyclists from different countries and regions.",
+          "We know that one website cannot answer every travel question or remove every cultural and language difference.",
+          "But a useful suggestion, information shared at the right moment, or a guide that helps solve a problem can still make an unfamiliar journey go more smoothly.",
+          "Even a small act of help has value."
+        ]
+      },
+      {
+        "id": "grow-together",
+        "title": "Improving the guide with riders around the world",
+        "paragraphs": [
+          "RideCN is still developing.",
+          "Transport policies, travel conditions and cycling information in China can change over time. We will continue to update and improve the site, working towards information that is accurate, practical and easy to understand.",
+          "We welcome riders from around the world to share their experiences, suggest improvements and help us identify and correct outdated information.",
+          "Whether you are an international rider who has visited China or a Chinese cyclist willing to share local knowledge, your perspective could help the next person preparing to set out.",
+          "We hope RideCN can be both a source of information and a starting point for riders from different cultural backgrounds to share experiences and understand one another."
+        ]
+      },
+      {
+        "id": "closer-through-cycling",
+        "title": "Bringing the world a little closer through cycling",
+        "paragraphs": [
+          "You do not need to know everything about China before you leave, or find every answer on your own.",
+          "We hope RideCN can be a reliable starting point for exploring China, helping you begin your own cycling journey with more confidence and anticipation.",
+          "Whether you are heading for a mountain range, a distant road or a city you have never visited, we hope you find stories of your own along the way.",
+          "Thank you for visiting RideCN.",
+          "May every kilometre you ride in China bring new scenery, friendship and understanding."
+        ]
+      }
+    ],
+    "motto": "Ride Beyond Borders. Connect Through Cycling.",
+    "contactLabel": "Share an experience or suggestion",
+    "aboutLabel": "About RideCN",
+    "contentsLabel": "Read why we started"
+  },
+  "fr": {
+    "label": "Pourquoi nous avons créé RideCN",
+    "title": "RideCN — Que chaque voyage à vélo par-delà les montagnes et les mers rapproche les peuples",
+    "intro": [
+      "RideCN est un guide d’information sur le vélo à but non lucratif, destiné aux cyclistes du monde entier.",
+      "En rassemblant et en partageant des informations pratiques sur les voyages à vélo en Chine, nous souhaitons aider les cyclistes de différents pays à mieux connaître la Chine, à préparer leurs itinéraires, à s’adapter aux conditions locales et à découvrir ses paysages et sa culture au fil du chemin.",
+      "Que vous veniez en Chine pour la première fois, que vous prépariez un voyage à travers villes et montagnes ou que vous ayez déjà une longue expérience du cyclotourisme international, nous espérons que RideCN vous apportera des informations utiles, des repères clairs et un accueil chaleureux de la part des cyclistes chinois."
+    ],
+    "sections": [
+      {
+        "id": "discover-china",
+        "title": "Commencer par découvrir la Chine",
+        "paragraphs": [
+          "Pour de nombreux cyclistes étrangers, la Chine est une destination attirante qui peut aussi sembler peu familière.",
+          "On y trouve de vastes plateaux, de longues chaînes de montagnes, des villes animées et des villages paisibles, ainsi qu’une grande diversité de cultures locales et de modes de vie. Mais les différences de règles de circulation, de langues, d’habitudes de paiement et de sources d’information peuvent aussi compliquer le voyage.",
+          "Avec RideCN, nous souhaitons réunir ces informations dispersées dans des guides simples, clairs et faciles à consulter.",
+          "De la préparation de l’entrée sur le territoire aux règles de circulation et au choix d’un itinéraire, en passant par l’hébergement, les paiements mobiles, la communication, la sécurité et les urgences, nous voulons aider les cyclistes internationaux à comprendre les questions pratiques qu’ils pourraient rencontrer avant leur arrivée.",
+          "Nous espérons ainsi leur laisser davantage de temps pour ce qui compte : profiter du vélo, admirer les paysages et apprécier les rencontres inattendues du voyage."
+        ]
+      },
+      {
+        "id": "shared-language",
+        "title": "Le vélo, un échange au-delà des langues",
+        "paragraphs": [
+          "Nous pensons que le vélo est plus qu’un sport ou un moyen de voyager. Il peut aussi relier des personnes de cultures, de langues et de parcours de vie différents.",
+          "Même lorsqu’ils viennent de pays différents et ne parlent pas la même langue, les cyclistes peuvent se retrouver autour d’une passion commune.",
+          "Une courte conversation au bord de la route, quelques kilomètres parcourus ensemble par hasard ou l’aide d’un cycliste que l’on vient de rencontrer peuvent devenir des souvenirs précieux.",
+          "La culture du vélo se développe en Chine, portée par des communautés actives. Avec RideCN, nous espérons permettre à davantage de visiteurs de découvrir la vie, la culture et l’enthousiasme des cyclistes chinois, et de créer des liens avec des personnes venues d’ailleurs grâce au vélo.",
+          "Pour nous, le sens d’une sortie ne tient pas seulement à l’arrivée. Il se trouve aussi dans les personnes rencontrées en chemin, ainsi que dans la compréhension et l’amitié qui naissent d’une passion partagée."
+        ]
+      },
+      {
+        "id": "accessible-information",
+        "title": "Ne plus laisser le manque d’information freiner la découverte",
+        "paragraphs": [
+          "Nous savons qu’aller faire du vélo dans un pays inconnu n’est pas toujours simple.",
+          "La barrière de la langue, les différences culturelles, la circulation et les incertitudes peuvent compliquer un voyage pourtant attendu avec impatience.",
+          "Pour une personne voyageant seule en particulier, des questions apparemment simples peuvent demander beaucoup de recherches : comment utiliser les paiements mobiles en Chine, comment emporter son vélo dans les transports en commun ou qui appeler en cas d’urgence.",
+          "RideCN est né de l’envie de réduire ces difficultés évitables.",
+          "Nous souhaitons partager ce que nous connaissons du vélo en Chine afin que les nouveaux visiteurs se sentent moins désorientés et que ceux qui connaissent déjà le pays trouvent encore des références utiles.",
+          "Nous ne voudrions pas que quelqu’un renonce à découvrir la Chine uniquement à cause de la langue ou d’un manque d’information."
+        ]
+      },
+      {
+        "id": "started-with-cycling",
+        "title": "Un projet né d’une passion pour le vélo",
+        "paragraphs": [
+          "RideCN est né d’une passion pour le vélo et d’une question simple : si des cyclistes étrangers souhaitent venir en Chine, pouvons-nous leur faciliter un peu le voyage ?",
+          "RideCN est un projet à but non lucratif qui ne recherche pas de bénéfice commercial. En partageant des informations pratiques, nous souhaitons aider davantage de cyclistes internationaux à connaître la Chine et encourager les échanges entre passionnés de différents pays et régions.",
+          "Nous savons qu’un site ne peut pas répondre à toutes les questions d’un voyage ni effacer toutes les différences culturelles et linguistiques.",
+          "Mais un conseil utile, une information partagée au bon moment ou un guide qui aide à résoudre une difficulté peuvent déjà rendre un voyage en terrain inconnu plus simple.",
+          "Même une petite aide a son importance."
+        ]
+      },
+      {
+        "id": "grow-together",
+        "title": "Améliorer le guide avec les cyclistes du monde entier",
+        "paragraphs": [
+          "RideCN continue de se développer.",
+          "Les politiques de transport, les conditions de voyage et les informations liées au vélo en Chine peuvent évoluer. Nous continuerons donc à mettre à jour et à améliorer le site, en recherchant des informations exactes, pratiques et faciles à comprendre.",
+          "Nous invitons les cyclistes du monde entier à partager leurs expériences, à proposer des améliorations et à nous aider à repérer et corriger les informations périmées.",
+          "Que vous soyez un cycliste étranger ayant visité la Chine ou un cycliste chinois souhaitant partager son expérience locale, votre regard peut aider la prochaine personne qui prépare son départ.",
+          "Nous espérons que RideCN sera à la fois une source d’information et un point de départ pour partager des expériences et mieux se comprendre entre cyclistes de cultures différentes."
+        ]
+      },
+      {
+        "id": "closer-through-cycling",
+        "title": "Rapprocher le monde grâce au vélo",
+        "paragraphs": [
+          "Vous n’avez pas besoin de tout connaître de la Chine avant de partir, ni de chercher seul toutes les réponses.",
+          "Nous espérons que RideCN sera un point de départ fiable pour découvrir la Chine et vous lancer dans votre propre voyage à vélo avec davantage de confiance et d’enthousiasme.",
+          "Que votre destination soit une grande chaîne de montagnes, une route lointaine ou une ville encore inconnue, nous espérons que vous trouverez vos propres histoires en chemin.",
+          "Merci de votre visite sur RideCN.",
+          "Que chaque kilomètre parcouru en Chine vous apporte de nouveaux paysages, de l’amitié et une meilleure compréhension des autres."
+        ]
+      }
+    ],
+    "motto": "Au-delà des frontières, le vélo nous relie.",
+    "contactLabel": "Partager une expérience ou une suggestion",
+    "aboutLabel": "À propos de RideCN",
+    "contentsLabel": "Lire les origines du projet"
+  }
+}
