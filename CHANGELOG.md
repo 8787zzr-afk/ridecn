@@ -2,6 +2,18 @@
 
 网站与仓库的更新记录，按日期倒序排列。
 
+## 2026-10-24 · 社交联系与同行 / Social contacts / Contacts et sorties
+
+- 联系页加入 QQ 3059469142、Instagram zhou66972 和抖音 duxiu0807 的可点击入口，保留联系邮箱。
+- 增加面向来华外国骑友的个人邀请：可咨询不熟悉的问题，来成都可提前联系，时间合适时一起骑行。同步中英法三语。
+- Instagram 链接指向主页，QQ 使用平台联系入口；抖音使用 Zhou 提供的个人主页分享链接。各入口保留可手动搜索的账号名，不保证平台或应用允许直接访问。
+- 隐私政策补充社交平台链接及消息说明；更新联系页、隐私政策的审阅日期和站点地图。
+- 验证：三语联系入口、邀请文案、构建与内部链接检查通过。未登录外部平台验证私信、好友权限或进行浏览器视觉验收。
+
+English: Added QQ, Instagram and Douyin contact links and a personal invitation to ask about cycling in China or arrange a ride in Chengdu when schedules allow. Updated all three languages and the privacy notice. Douyin uses the profile share link supplied by Zhou. Build and automated checks passed; platform messaging permissions were not tested.
+
+Français : Ajout des liens QQ, Instagram et Douyin et d’une invitation à poser des questions sur le vélo en Chine ou à envisager une sortie à Chengdu selon les disponibilités. Mise à jour des trois langues et de la confidentialité. Douyin utilise le lien de partage du profil fourni par Zhou. Compilation et contrôles automatiques réussis ; permissions de messagerie non testées.
+
 ## 2026-10-24 · 成都骑行目的地 / Chengdu ride ideas / Sorties à Chengdu
 
 - 成都指南新增环城绿道、锦江、鹿溪河、青龙湖、温江北林及兴隆湖六处骑行目的地，完整同步中英法三语。

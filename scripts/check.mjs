@@ -102,3 +102,15 @@ for(const lang of ['en','zh','fr']){
 }
 for(const photo of photos){assert(fs.statSync(`${root}/assets/chengdu/${photo.id}.webp`).size<200000);assert(photo.width>0 && photo.height>0)}
 console.log('PASS: six complete route ideas in three languages, provenance links, photo credits and optimized local images.');
+
+const {socialAccounts}=await import('../src/social.mjs');
+for(const lang of ['en','zh','fr']){
+ const html=fs.readFileSync(`${root}/${lang}/contact/index.html`,'utf8');
+ for(const a of socialAccounts){assert(html.includes(escapeRoute(a.href)),`${lang}: missing ${a.id} destination`);assert(html.includes(a.handle));assert(html.includes(a.action[lang]));}
+ assert(html.includes(['Visiting China? Say hello.','来中国骑行，欢迎找我聊聊。','Vous venez en Chine ? Parlons-en.'][['en','zh','fr'].indexOf(lang)]));
+ const privacy=fs.readFileSync(`${root}/${lang}/privacy/index.html`,'utf8');
+ for(const platform of ['QQ','Instagram','Douyin'])assert(privacy.includes(platform==='Douyin'&&lang==='zh'?'抖音':platform));
+ assert(privacy.includes('24 October 2026')||privacy.includes('2026年10月24日')||privacy.includes('24 octobre 2026'));
+}
+assert.equal(socialAccounts.find(a=>a.id==='douyin').href,'https://v.douyin.com/YIYzPD0RQrU/');
+console.log('PASS: public contact accounts, provided Douyin share link, three-language invitation and social privacy notice.');
