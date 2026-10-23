@@ -74,3 +74,9 @@ RideCN is not affiliated with any government or emergency service. Its content i
 RideCN 不隶属政府或紧急救援机构，内容供一般信息参考，不构成专业建议。现行当地法律和官方指令优先适用。网站的免责声明、隐私政策和使用条款均提供三种语言版本。
 
 RideCN n’est affilié à aucun gouvernement ni service d’urgence. Son contenu est informatif et ne constitue pas un conseil professionnel. Les lois locales en vigueur et les instructions officielles priment. L’avertissement, la politique de confidentialité et les conditions d’utilisation sont disponibles dans les trois langues.
+
+Chengdu ride descriptions, source records and image credits are maintained together in `src/chengdu-routes.mjs`. Each text field includes `en`, `zh` and `fr`; adding another language requires translating the full module and extending its validation. Reported distances are not field-verified tracks.
+
+成都骑行介绍、资料来源和图片署名统一维护在 `src/chengdu-routes.mjs`。每个文本字段包含 `en`、`zh`、`fr`；新增语言时须完整翻译该模块并扩展校验。报道距离不代表实地核实的轨迹。
+
+Les descriptions des sorties à Chengdu, leurs sources et les crédits photographiques sont regroupés dans `src/chengdu-routes.mjs`. Chaque champ contient `en`, `zh` et `fr` ; l’ajout d’une langue exige de traduire tout le module et d’étendre sa validation. Les distances publiées ne constituent pas des tracés vérifiés sur le terrain.

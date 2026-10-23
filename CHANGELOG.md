@@ -2,6 +2,18 @@
 
 网站与仓库的更新记录，按日期倒序排列。
 
+## 2026-10-24 · 成都骑行目的地 / Chengdu ride ideas / Sorties à Chengdu
+
+- 成都指南新增环城绿道、锦江、鹿溪河、青龙湖、温江北林及兴隆湖六处骑行目的地，完整同步中英法三语。
+- 区分报道距离、绿道网络长度和未经实地核实的路线，加入中文地图搜索词、规划建议及逐项资料出处。
+- 加入三张已核实 CC0 许可的成都实景照片，压缩为本地 WebP，注明作者和拍摄日期。
+- 修正将龙泉驿与都江堰一并归为“西部近郊”的标题。
+- 验证：三语内容、来源锚点、图片资源、正式域名和 GitHub 项目路径构建检查通过。未进行浏览器视觉或路线实地验收。
+
+English: Added six Chengdu ride ideas in all three languages, with source references, Chinese search names and planning notes. Distinguished reported distances from unverified tracks, added three credited CC0 photographs and corrected the outskirts heading. Build and automated content/link checks passed; no browser visual or field review was performed.
+
+Français : Ajout de six idées de sortie à Chengdu dans les trois langues, avec sources, noms chinois pour la recherche et conseils de préparation. Distinction entre distances publiées et tracés non vérifiés, ajout de trois photographies CC0 créditées et correction du titre sur la périphérie. Compilation et contrôles automatiques réussis ; pas de vérification visuelle dans un navigateur ni sur le terrain.
+
 ## 2026-10-24 · 首页建站初衷 / Why we started / Origines du projet
 
 - 首页加入完整建站初衷，以提供的中文文案为基础，补齐英文和法语。

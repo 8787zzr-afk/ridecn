@@ -82,3 +82,23 @@ for(const lang of ['en','zh','fr']){
  assert.equal((html.match(/id="our-purpose"/g)||[]).length,1);
 }
 console.log('PASS: all six homepage purpose chapters, introductory paragraphs and sign-off in English, Chinese and French.');
+
+// Keep each route idea and its provenance available in every published language.
+const {routes,photos,routeSources,routeNotice}=await import('../src/chengdu-routes.mjs');
+assert.equal(routes.length,6);
+const escapeRoute=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+for(const lang of ['en','zh','fr']){
+ const html=fs.readFileSync(`${root}/${lang}/chengdu/index.html`,'utf8');
+ const sourceHTML=fs.readFileSync(`${root}/${lang}/sources/index.html`,'utf8');
+ assert(html.includes(escapeRoute(routeNotice[lang])));
+ for(const r of routes){
+  assert.equal((html.match(new RegExp(`id="ride-${r.id}"`,'g'))||[]).length,1);
+  for(const key of ['name','distance','terrain','effort','description','plan'])assert(html.includes(escapeRoute(r[key][lang])),`${lang}/${r.id}: missing ${key}`);
+  const source=routeSources.find(s=>s.id===r.id);
+  assert(sourceHTML.includes(`id="chengdu-${r.id}"`));
+  assert(sourceHTML.includes(source.url));
+ }
+ for(const photo of photos){assert(html.includes(escapeRoute(photo.caption[lang])));assert(sourceHTML.includes(photo.url));}
+}
+for(const photo of photos){assert(fs.statSync(`${root}/assets/chengdu/${photo.id}.webp`).size<200000);assert(photo.width>0 && photo.height>0)}
+console.log('PASS: six complete route ideas in three languages, provenance links, photo credits and optimized local images.');
