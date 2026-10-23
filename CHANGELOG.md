@@ -2,6 +2,15 @@
 
 网站与仓库的更新记录，按日期倒序排列。
 
+## 2026-10-24 · 中文联系姓名 / Chinese contact name / Nom de contact en chinois
+
+- 中文联系标题改为“联系周子睿”，同步中文自我介绍、邮件按钮及相关联系说明中的姓名。
+- 验证：静态构建和现有三语检查通过。
+
+English: Updated the Chinese contact name to 周子睿 in the heading, introduction, email button and related contact text. Build and existing multilingual checks passed.
+
+Français : Mise à jour du nom de contact chinois en 周子睿 dans le titre, la présentation, le bouton de courriel et les textes associés. Compilation et contrôles multilingues existants réussis.
+
 ## 2026-10-24 · 社交联系与同行 / Social contacts / Contacts et sorties
 
 - 联系页加入 QQ 3059469142、Instagram zhou66972 和抖音 duxiu0807 的可点击入口，保留联系邮箱。

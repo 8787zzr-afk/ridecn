@@ -16,7 +16,7 @@ for(const [key,page] of Object.entries(pages)){
  }
 }
 for(const source of sources)for(const index of [1,2,3,4])assert(source[index]?.trim(),'Missing bilingual source label');
-for(const [lang,heading,button] of [['en','Get in touch with Zhou','Email Zhou'],['zh','联系 Zhou','给 Zhou 写邮件'],['fr','Contacter Zhou','Écrire à Zhou']]){
+for(const [lang,heading,button] of [['en','Get in touch with Zhou','Email Zhou'],['zh','联系周子睿','给周子睿写邮件'],['fr','Contacter Zhou','Écrire à Zhou']]){
  const html=fs.readFileSync(`${root}/${lang}/contact/index.html`,'utf8');
  assert(html.includes(heading) && html.includes(button),`${lang}: untranslated contact UI`);
  assert(html.includes('mailto:8787zzr@gmail.com'),`${lang}: missing email link`);
