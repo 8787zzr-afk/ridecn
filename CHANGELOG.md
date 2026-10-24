@@ -2,6 +2,16 @@
 
 网站与仓库的更新记录，按日期倒序排列。
 
+## 2026-10-24 · 评价图片完整显示 / Review image display / Affichage des photos
+
+- 修复评价图片使用裁切填充，仅能看到部分画面的问题；改为保持比例完整显示，横图和竖图均保留全貌。
+- 图片展示框限制在桌面 220 × 180 像素、窄屏 160 × 150 像素以内，并随容器缩小；统一修复公开评价、审核列表和上传预览。
+- 验证：静态构建、三语页面及现有审核权限测试通过；上线后检查三语图片样式。
+
+English: Fixed cropped review photos by fitting the complete image proportionally inside bounded desktop and narrow-screen frames. The shared styling covers published reviews, moderation and upload previews. Build, multilingual checks and existing moderation tests passed.
+
+Français : Correction du recadrage des photos d’avis : l’image entière conserve ses proportions dans un cadre de taille limitée, adapté aux écrans étroits. Le style commun s’applique aux avis publics, à la modération et aux aperçus. Compilation, contrôles multilingues et tests de modération réussis.
+
 ## 2026-10-24 · 在线骑友评价 / Rider reviews / Avis des cyclistes
 
 - 新增独立骑友评价页面，支持必填姓名、文字与最多三张可选图片，完整提供中英法三语。
