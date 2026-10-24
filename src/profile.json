@@ -1,0 +1,149 @@
+{
+  "zh": {
+    "title": "关于我",
+    "desc": "我是周子睿，来自成都的高中生、公路车骑行者，也是 RideCN 的创办人。这里是我的骑行照片，以及我想把帮助传递下去的原因。",
+    "label": "自行车上的我",
+    "name": "周子睿",
+    "role": "成都 · 高中生 · RideCN 创办人",
+    "quote": "我也曾在陌生的路上不知道该往哪里走，所以希望能为来到中国的骑友指一次路。",
+    "gallery": "一路骑过的颜色",
+    "hint": "上下滑动，沿着一条螺旋看照片。也可以使用方向按钮或键盘。",
+    "prev": "上一张",
+    "next": "下一张",
+    "original": "查看原图",
+    "cover": "周子睿在芦苇旁的道路上骑行",
+    "alts": [
+      "骑行者站在黄昏的海边岩石上",
+      "绿荫背景中俯身骑行的骑手",
+      "田野旁穿黄色骑行服的骑手",
+      "树木与蓝天下的公路骑行",
+      "山坡与针叶林之间的骑行者",
+      "骑行者与自行车站在开阔山顶",
+      "沿石墙与海岸向前骑行",
+      "蓝色海面旁的公路骑行"
+    ],
+    "sections": [
+      [
+        "你好，我是周子睿",
+        "我在成都长大，现在是成都外国语学校的一名高三学生。课余最常做的事情，就是骑上公路车出门。熟悉的绿道、周末的约骑、训练中的一段爬坡，都是我生活的一部分。",
+        "我已经在全球十余座不同的城市骑过车。有些旅程让我记住了风景，有些让我记住了一个人。骑得越远，我越能体会：会骑车和熟悉一个地方，是两回事。"
+      ],
+      [
+        "风秃山上，一位陌生骑友给我指了路",
+        "在法国风秃山骑行时，我曾有过一段迷茫又无助的时刻。身处陌生的环境，不确定接下来该往哪里走，那种感觉和在成都骑车时很不一样。平时习以为常的路线判断，到了异国也会成为难题。",
+        "后来，一位好心的骑友给我指了路。这件事本身并不复杂，但对当时的我来说，那份帮助很实在。我记住的不只是方向，还有一个陌生人愿意停下来帮忙的善意。",
+        "这也让我想到，来到中国的外国骑友，可能正在经历同样的不确定。如果我能用自己熟悉的语言、道路和生活经验，帮他们弄清一个问题，他们的旅程也许就能轻松一点。"
+      ],
+      [
+        "从一个人骑，到和更多人一起骑",
+        "高一时，我发现学校里有不少喜欢骑车的同学，于是发起了成外骑行社，从招募成员、安排活动到组织周末约骑，一步步把它办起来。社团累计招募约 30 名社员，我们也分享入门安全知识、基础维修方法，组织室内骑行台体验。",
+        "我参加过全国青少年公路车冠军赛 U18 组和成都市公路车锦标赛。比赛让我更认真地对待训练、准备和自己的不足；组织社团则让我学着照顾不同经验的骑友，让第一次参加的人也能融入。"
+      ],
+      [
+        "把受到的帮助传递下去",
+        "有一次，我和美国英语老师 Walter 晚上出发，沿天府绿道骑了 100 公里。他不熟悉当地道路，我便教他使用百度地图。对我来说很简单的一步，对第一次在这里骑行的人却很重要。",
+        "风秃山上受到的帮助，以及和 Walter 同行的经历，让我更加清楚地看到了本地人与访客之间的信息差。RideCN 就是我尝试回应这件事的方式：把骑行规则、出行准备和求助信息整理出来，让来到中国的骑友有一个容易查阅的起点。",
+        "我仍然是一名学生，网站也会有需要改进的地方。如果你发现错误，或者愿意分享来华骑行的经历，欢迎告诉我。你来成都时也可以联系我；如果时间允许，我很愿意和你一起骑一段。那不是商业导骑，只是骑友之间的一次同行。"
+      ]
+    ],
+    "contact": "联系周子睿"
+  },
+  "en": {
+    "title": "About me",
+    "desc": "I’m Zhou Zirui, a high school student and road cyclist from Chengdu, and the founder of RideCN. These are my photographs and the experiences behind the project.",
+    "label": "THE PERSON ON THE BIKE",
+    "name": "Zhou Zirui",
+    "role": "Chengdu · High school student · Founder of RideCN",
+    "quote": "I have been the rider who did not know which way to go. I would like to help someone arriving in China find their way, too.",
+    "gallery": "The colours along the way",
+    "hint": "Scroll or swipe vertically through a single spiral of photographs. You can also use the buttons or your keyboard.",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "original": "View original",
+    "cover": "Zhou cycling along a road beside reeds",
+    "alts": [
+      "A cyclist on coastal rocks at dusk",
+      "A cyclist leaning forward against a green backdrop",
+      "A cyclist in yellow beside open fields",
+      "Road cycling beneath trees and a blue sky",
+      "A cyclist between a mountain slope and conifer trees",
+      "A cyclist and bicycle on an open mountain summit",
+      "Cycling beside a stone wall above the coast",
+      "Road cycling beside the blue sea"
+    ],
+    "sections": [
+      [
+        "Hi, I’m Zhou",
+        "I grew up in Chengdu and am now in my final year at Chengdu Foreign Languages School. Outside class, I spend much of my time on a road bike. Familiar greenways, weekend rides and climbs during training are part of my everyday life.",
+        "I have cycled in more than ten cities around the world. Some rides stay with me because of the scenery; others because of a person I met. The farther I travel, the more I realise that knowing how to ride is different from knowing a place."
+      ],
+      [
+        "A stranger’s help on Mont Ventoux",
+        "While cycling on Mont Ventoux in France, I felt lost and unsure where to go next. I was in unfamiliar surroundings, far from the roads I knew in Chengdu. Finding my way, something I usually took for granted, suddenly felt difficult.",
+        "A kind fellow cyclist gave me directions. It was a simple act, but at that moment it made a real difference. I remembered both the way forward and the kindness of someone willing to help a stranger.",
+        "It made me think about foreign riders arriving in China. They might face the same uncertainty. Perhaps my knowledge of local roads, language and everyday life could make one part of their journey easier."
+      ],
+      [
+        "From riding alone to bringing people together",
+        "In my first year of high school, I noticed that quite a few classmates enjoyed cycling. I started our school cycling club, recruiting members and organising activities and weekend rides. Around 30 students have joined over time. We also share beginner safety advice, practise basic repairs and offer indoor trainer sessions.",
+        "I have competed in the U18 national youth road cycling championships and the Chengdu road cycling championships. Racing taught me to take preparation seriously and recognise where I need to improve. Running a club has taught me to consider riders with different levels of experience and help newcomers feel included."
+      ],
+      [
+        "Passing that help on",
+        "One evening, my American English teacher Walter and I set out for a 100-kilometre ride on the Tianfu Greenway. He did not know the local roads, so I showed him how to use Baidu Maps. Something straightforward for me mattered much more to someone riding here for the first time.",
+        "That ride, together with the help I received on Mont Ventoux, made the information gap between residents and visitors clearer to me. RideCN is my response: a place to find cycling rules, travel preparation and emergency information before riding in China.",
+        "I am still a student, and the website still has room to improve. Please tell me if you spot an error or want to share your experience of cycling here. If you come to Chengdu, you are welcome to get in touch. When I have time, I would be happy to join you for a ride, simply as another cyclist rather than as a commercial guide."
+      ]
+    ],
+    "contact": "Get in touch with Zhou"
+  },
+  "fr": {
+    "title": "À propos de moi",
+    "desc": "Je suis Zhou Zirui, lycéen et cycliste sur route à Chengdu, et créateur de RideCN. Voici mes photos et les expériences à l’origine du projet.",
+    "label": "LA PERSONNE SUR LE VÉLO",
+    "name": "Zhou Zirui",
+    "role": "Chengdu · Lycéen · Créateur de RideCN",
+    "quote": "Moi aussi, j’ai été ce cycliste qui ne savait plus où aller. J’aimerais à mon tour aider ceux qui arrivent en Chine à trouver leur chemin.",
+    "gallery": "Les couleurs du voyage",
+    "hint": "Faites défiler les photos verticalement le long d’une spirale. Les boutons et le clavier permettent aussi de naviguer.",
+    "prev": "Photo précédente",
+    "next": "Photo suivante",
+    "original": "Voir l’original",
+    "cover": "Zhou à vélo sur une route bordée de roseaux",
+    "alts": [
+      "Un cycliste sur des rochers au bord de la mer au crépuscule",
+      "Un cycliste penché sur son vélo devant un paysage vert",
+      "Un cycliste en jaune près des champs",
+      "Une sortie à vélo sous les arbres et le ciel bleu",
+      "Un cycliste entre un versant montagneux et des conifères",
+      "Un cycliste avec son vélo sur un sommet dégagé",
+      "Une sortie à vélo le long d’un mur de pierre au-dessus de la côte",
+      "Une sortie à vélo au bord de la mer bleue"
+    ],
+    "sections": [
+      [
+        "Bonjour, je suis Zhou",
+        "J’ai grandi à Chengdu et je suis en dernière année au lycée des langues étrangères de Chengdu. En dehors des cours, je passe beaucoup de temps sur mon vélo de route. Les voies vertes familières, les sorties du week-end et les côtes à l’entraînement font partie de mon quotidien.",
+        "J’ai roulé dans plus de dix villes à travers le monde. Certaines sorties me restent en mémoire pour leurs paysages, d’autres pour une rencontre. Plus je voyage, plus je comprends que savoir faire du vélo ne signifie pas connaître un endroit."
+      ],
+      [
+        "Une rencontre sur le mont Ventoux",
+        "Lors d’une sortie sur le mont Ventoux, en France, je me suis senti perdu, sans savoir quelle direction prendre. L’environnement m’était inconnu, bien loin des routes familières de Chengdu. Trouver mon chemin, une chose habituellement simple pour moi, était devenu difficile.",
+        "Un cycliste bienveillant m’a indiqué la direction. Ce geste était simple, mais il comptait beaucoup à cet instant. J’ai retenu le chemin, mais aussi la gentillesse d’une personne prête à aider un inconnu.",
+        "J’ai alors pensé aux cyclistes étrangers qui arrivent en Chine. Ils peuvent ressentir la même incertitude. Ma connaissance des routes, de la langue et de la vie locale pourrait peut-être leur faciliter une partie du voyage."
+      ],
+      [
+        "Du vélo en solitaire aux sorties partagées",
+        "En première année de lycée, j’ai remarqué que plusieurs camarades aimaient le vélo. J’ai créé le club cycliste de notre école, recruté des membres et organisé des activités et des sorties le week-end. Environ 30 élèves l’ont rejoint au fil du temps. Nous partageons aussi des conseils de sécurité pour débutants, des notions de réparation et des séances sur home trainer.",
+        "J’ai participé aux championnats nationaux de cyclisme sur route pour jeunes en catégorie U18 ainsi qu’aux championnats de Chengdu. La compétition m’a appris à prendre la préparation au sérieux et à reconnaître mes points faibles. Le club m’apprend à tenir compte des différents niveaux et à accueillir les nouveaux."
+      ],
+      [
+        "Transmettre l’aide reçue",
+        "Un soir, mon professeur d’anglais américain, Walter, et moi sommes partis pour 100 kilomètres sur la voie verte Tianfu. Comme il ne connaissait pas les routes locales, je lui ai montré comment utiliser Baidu Maps. Ce qui me semblait évident était précieux pour quelqu’un qui roulait ici pour la première fois.",
+        "Cette sortie et l’aide reçue sur le mont Ventoux m’ont fait mieux comprendre l’écart d’information entre habitants et visiteurs. RideCN est ma façon d’y répondre : réunir des informations sur la circulation à vélo, la préparation du voyage et les urgences pour ceux qui viennent en Chine.",
+        "Je suis encore lycéen et le site peut toujours être amélioré. Si vous remarquez une erreur ou souhaitez raconter votre expérience, écrivez-moi. Vous pouvez aussi me contacter en venant à Chengdu. Si mon emploi du temps le permet, je serai heureux de partager une sortie avec vous, entre cyclistes, sans prestation commerciale de guidage."
+      ]
+    ],
+    "contact": "Contacter Zhou"
+  }
+}

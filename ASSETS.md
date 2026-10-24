@@ -19,3 +19,7 @@ All three files below are CC0 1.0 public-domain dedications, checked on 24 Octob
 | `public/assets/chengdu/xinglong.webp` | MspreilsCN | 2019-03-23 | [Xinglong Lake, Chengdu](https://commons.wikimedia.org/wiki/File:Xinglong_Lake,_Chengdu.jpg) |
 
 [CC0 1.0 dedication](https://creativecommons.org/publicdomain/zero/1.0/). The Jinjiang photo shows a riverside bridge scene, not a modern greenway alignment. The Xinglong panorama retains its original wide aspect ratio. The supplied social-media collages and maps are not republished.
+
+## Personal profile photographs — 2026-10-24
+
+Nine photographs supplied by Zhou for his personal profile. Copied byte-for-byte from the supplied JPEG files, without resizing or recompression. Display dimensions are bounded with CSS. Locations are not inferred from the images. Original files are available via the gallery links.

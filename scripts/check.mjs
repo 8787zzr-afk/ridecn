@@ -1,9 +1,9 @@
 import {pages, sources} from '../src/content.mjs';
 import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';
-const root=path.resolve('dist');const base=(process.env.BASE_PATH||'').replace(/\/$/,'');let htmls=[];function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);e.isDirectory()?walk(p):p.endsWith('.html')&&htmls.push(p)}}walk(root);assert.equal(htmls.length,38);
+const root=path.resolve('dist');const base=(process.env.BASE_PATH||'').replace(/\/$/,'');let htmls=[];function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);e.isDirectory()?walk(p):p.endsWith('.html')&&htmls.push(p)}}walk(root);assert.equal(htmls.length,41);
 let count=0;for(const file of htmls){const html=fs.readFileSync(file,'utf8');for(const m of html.matchAll(/(?:href|src)="(\/[^"#]*)(#[^"]*)?"/g)){assert(!base || m[1].startsWith(base+'/'),`unprefixed link ${m[1]}`);let target=path.join(root,base?m[1].slice(base.length):m[1]);if(m[1].endsWith('/'))target=path.join(target,'index.html');assert(fs.existsSync(target),`${file}: broken ${m[1]}`);if(m[2])assert(fs.readFileSync(target,'utf8').includes(`id="${m[2].slice(1)}"`),`missing anchor ${m[0]}`);count++}if(/\/(en|zh|fr)\//.test(file)){assert(html.includes('hreflang="zh-CN"'));assert(html.includes('name="description"'));assert(html.includes('<h1>'));assert(html.includes('Contact & Corrections')||html.includes('联系与纠错')||html.includes('Contact et corrections'));assert(!/undefined|NaN/.test(html))}}
 for(const lang of ['en','zh','fr']){const s=fs.readFileSync(`${root}/${lang}/safety/index.html`,'utf8');for(const n of [110,119,120,122])assert(s.includes(`tel:${n}`));}
-assert(fs.statSync(`${root}/assets/china-road.jpg`).size>10000);console.log(`PASS: 38 pages, ${count} internal assets/links and linked anchors, trilingual metadata, emergency phone links, image asset.`);
+assert(fs.statSync(`${root}/assets/china-road.jpg`).size>10000);console.log(`PASS: 41 pages, ${count} internal assets/links and linked anchors, trilingual metadata, emergency phone links, image asset.`);
 
 // Fail the release if a paired article or policy translation is missing.
 for(const [key,page] of Object.entries(pages)){
@@ -39,7 +39,7 @@ for(const lang of ['en','zh','fr']){
  assert(policy.includes('Cloudflare Web Analytics'));
  assert(!policy.includes('or analytics scripts') && !policy.includes('或统计脚本'));
 }
-console.log('PASS: single analytics beacon on 36 content pages, redirect excluded, all privacy notices updated.');
+console.log('PASS: single analytics beacon on 39 content pages, redirect excluded, all privacy notices updated.');
 
 // Check every page-preserving language link, SEO alternate and French section.
 for(const lang of ['en','zh','fr'])for(const key of ['home',...Object.keys(pages)]){
@@ -125,3 +125,16 @@ for(const lang of ['en','zh','fr']){
  const home=fs.readFileSync(`${root}/${lang}/index.html`,'utf8');assert(home.includes(`${base}/${lang}/reviews/`));
 }
 console.log('PASS: localized review pages, public form and owner moderation destinations, navigation and privacy disclosure.');
+
+// The personal page must keep all photographs and text available in every language.
+const {profile}=await import('../src/profile.mjs');
+for(const lang of ['en','zh','fr']){
+ const html=fs.readFileSync(`${root}/${lang}/me/index.html`,'utf8');
+ assert(html.includes(`<h1>${profile[lang].name}</h1>`));
+ for(const section of profile[lang].sections)for(const text of section)assert(html.includes(text));
+ for(const alt of profile[lang].alts)assert(html.includes(`alt="${alt}"`));
+ assert.equal((html.match(/class="helix-card"/g)||[]).length,8);
+ for(const code of ['en','zh','fr'])assert(html.includes(`href="${base}/${code}/me/"`));
+ assert(html.includes(`src="${base}/assets/profile.js"`));
+}
+console.log('PASS: personal story, eight full-image gallery cards, navigation and controls in three languages.');

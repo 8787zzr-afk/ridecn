@@ -1,3 +1,12 @@
+# Changelog
+
+## 2026-10-24 — Personal profile and original-photo spiral
+
+- Added About me pages in English, Chinese and French, with the founder’s cycling background, Mont Ventoux experience and reasons for helping visiting riders.
+- Added the supplied cover and eight colour-sequenced photographs without recompression or resizing; bounded full-image gallery with vertical touch scrolling, keyboard access, previous/next controls and original-file links.
+- Added navigation, language-preserving links and sitemap entries. Fixed development-server JPEG MIME handling and support for an explicit preview port.
+- Validation: static build, internal links, translation checks and source-image byte comparisons.
+
 # RideCN 更新日志 / Changelog
 
 网站与仓库的更新记录，按日期倒序排列。
