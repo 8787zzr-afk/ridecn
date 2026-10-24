@@ -18,6 +18,8 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
+      - name: Check review service authorization and moderation
+        run: npm run test:reviews
       - name: Build and check root-domain configuration
         run: npm run build && npm test
         env:

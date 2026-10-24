@@ -80,3 +80,11 @@ Chengdu ride descriptions, source records and image credits are maintained toget
 成都骑行介绍、资料来源和图片署名统一维护在 `src/chengdu-routes.mjs`。每个文本字段包含 `en`、`zh`、`fr`；新增语言时须完整翻译该模块并扩展校验。报道距离不代表实地核实的轨迹。
 
 Les descriptions des sorties à Chengdu, leurs sources et les crédits photographiques sont regroupés dans `src/chengdu-routes.mjs`. Chaque champ contient `en`, `zh` et `fr` ; l’ajout d’une langue exige de traduire tout le module et d’étendre sa validation. Les distances publiées ne constituent pas des tracés vérifiés sur le terrain.
+
+## Rider reviews / 骑友评价 / Avis des cyclistes
+
+The reviews page embeds the separately hosted moderation service. Backend source and management instructions: `services/reviews/README.md`. Run `npm run test:reviews` for its local authorization and submission tests. Frontend GitHub pushes do not redeploy this backend.
+
+评价页接入独立托管的审核服务。后端源码与管理说明见 `services/reviews/README.md`。使用 `npm run test:reviews` 检查提交与审核权限；GitHub 前端更新不会自动部署这个后端。
+
+La page d’avis intègre un service de modération hébergé séparément. Code serveur et instructions : `services/reviews/README.md`. Lancez `npm run test:reviews` pour les contrôles locaux. Les mises à jour GitHub du site statique ne redéploient pas ce serveur.

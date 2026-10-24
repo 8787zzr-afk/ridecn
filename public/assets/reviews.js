@@ -1,0 +1,2 @@
+const reviewFrame=document.getElementById('review-frame');
+if(reviewFrame){window.addEventListener('message',event=>{if(event.origin!==new URL(reviewFrame.src).origin||event.source!==reviewFrame.contentWindow||event.data?.type!=='ridecn-review-height')return;const height=Number(event.data.height);if(Number.isFinite(height)&&height>=400&&height<=30000)reviewFrame.style.height=Math.ceil(height+16)+'px'})}

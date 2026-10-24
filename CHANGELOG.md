@@ -2,6 +2,18 @@
 
 网站与仓库的更新记录，按日期倒序排列。
 
+## 2026-10-24 · 在线骑友评价 / Rider reviews / Avis des cyclistes
+
+- 新增独立骑友评价页面，支持必填姓名、文字与最多三张可选图片，完整提供中英法三语。
+- 新增独立 Cloudflare Worker / 私有 R2 评价服务；访客无需注册，提交后进入待审核区。只有创办人通过 ChatGPT 登录后可审核公开或删除，图片也按审核状态控制访问。
+- 图片在浏览器压缩并重新编码；添加输入与体积限制、同源提交检查、基础频率限制和明确的失败提示。
+- 导航和页脚加入评价入口，隐私政策说明评价存储、公开范围与删除联系方法；后端源代码和审核说明保存在 services/reviews。
+- 验证：静态构建、三语页面及内部链接、待审核内容不可公开读取、非管理员拒绝、发布与删除流程的本地测试通过。线上检查公开列表及未授权访问；浏览器查看了中文评价页。真实账号登录后的审核及手机图片选择尚未验收。
+
+English: Added a trilingual rider review page with required names, text and optional photos. A separate Worker and private R2 store enforce owner-only moderation and image visibility; no visitor account is required. Updated navigation and privacy text, included backend source and management notes, and checked authorization, publish/delete behavior, builds and links. Real owner sign-in and mobile file selection were not tested.
+
+Français : Ajout d’une page d’avis trilingue avec nom obligatoire, texte et photos facultatives. Un Worker et un stockage R2 privé assurent la modération par le créateur et la visibilité des images, sans compte visiteur. Navigation, confidentialité, code serveur et documentation mis à jour. Autorisations, publication/suppression, compilation et liens vérifiés ; connexion réelle du créateur et sélection de fichiers sur mobile non testées.
+
 ## 2026-10-24 · 中文联系姓名 / Chinese contact name / Nom de contact en chinois
 
 - 中文联系标题改为“联系周子睿”，同步中文自我介绍、邮件按钮及相关联系说明中的姓名。
