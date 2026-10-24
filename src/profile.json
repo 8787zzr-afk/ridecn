@@ -7,20 +7,20 @@
     "role": "成都 · 高中生 · RideCN 创办人",
     "quote": "我也曾在陌生的路上不知道该往哪里走，所以希望能为来到中国的骑友指一次路。",
     "gallery": "一路骑过的颜色",
-    "hint": "上下滑动，沿着一条螺旋看照片。也可以使用方向按钮或键盘。",
+    "hint": "拖动 · 滑动 · 方向键",
     "prev": "上一张",
     "next": "下一张",
     "original": "查看原图",
     "cover": "周子睿在芦苇旁的道路上骑行",
     "alts": [
       "骑行者站在黄昏的海边岩石上",
-      "绿荫背景中俯身骑行的骑手",
+      "阳光下的计时车骑行",
+      "贴近车把骑行的车手",
       "田野旁穿黄色骑行服的骑手",
-      "树木与蓝天下的公路骑行",
-      "山坡与针叶林之间的骑行者",
       "骑行者与自行车站在开阔山顶",
       "沿石墙与海岸向前骑行",
-      "蓝色海面旁的公路骑行"
+      "蓝色海面旁的公路骑行",
+      "水边停放的两辆公路自行车"
     ],
     "sections": [
       [
@@ -41,12 +41,19 @@
       ],
       [
         "把受到的帮助传递下去",
-        "有一次，我和美国英语老师 Walter 晚上出发，沿天府绿道骑了 100 公里。他不熟悉当地道路，我便教他使用百度地图。对我来说很简单的一步，对第一次在这里骑行的人却很重要。",
-        "风秃山上受到的帮助，以及和 Walter 同行的经历，让我更加清楚地看到了本地人与访客之间的信息差。RideCN 就是我尝试回应这件事的方式：把骑行规则、出行准备和求助信息整理出来，让来到中国的骑友有一个容易查阅的起点。",
+        "风秃山上受到的帮助，让我更能体会初到陌生地方的骑友会遇到什么困难。RideCN 是我把这份善意传递下去的一种方式：整理中国的骑行规则、出行准备和求助信息，让来访者有一个容易查阅的起点。",
         "我仍然是一名学生，网站也会有需要改进的地方。如果你发现错误，或者愿意分享来华骑行的经历，欢迎告诉我。你来成都时也可以联系我；如果时间允许，我很愿意和你一起骑一段。那不是商业导骑，只是骑友之间的一次同行。"
       ]
     ],
-    "contact": "联系周子睿"
+    "contact": "联系周子睿",
+    "intro": "我是周子睿，来自成都的高中生和公路车骑行者。我在全球十余座城市骑过车，也发起了学校的骑行社。现在，我想通过 RideCN，把在路上收到的善意传递给更多来到中国的骑友。",
+    "tags": [
+      "成都",
+      "公路骑行",
+      "十余座城市",
+      "学生发起"
+    ],
+    "read": "我的故事"
   },
   "en": {
     "title": "About me",
@@ -56,20 +63,20 @@
     "role": "Chengdu · High school student · Founder of RideCN",
     "quote": "I have been the rider who did not know which way to go. I would like to help someone arriving in China find their way, too.",
     "gallery": "The colours along the way",
-    "hint": "Scroll or swipe vertically through a single spiral of photographs. You can also use the buttons or your keyboard.",
+    "hint": "Drag · Swipe · Arrow keys",
     "prev": "Previous photo",
     "next": "Next photo",
     "original": "View original",
     "cover": "Zhou cycling along a road beside reeds",
     "alts": [
       "A cyclist on coastal rocks at dusk",
-      "A cyclist leaning forward against a green backdrop",
+      "Time-trial cycling in sunlight",
+      "A rider tucked over the handlebars",
       "A cyclist in yellow beside open fields",
-      "Road cycling beneath trees and a blue sky",
-      "A cyclist between a mountain slope and conifer trees",
       "A cyclist and bicycle on an open mountain summit",
       "Cycling beside a stone wall above the coast",
-      "Road cycling beside the blue sea"
+      "Road cycling beside the blue sea",
+      "Two road bicycles beside the water"
     ],
     "sections": [
       [
@@ -90,12 +97,19 @@
       ],
       [
         "Passing that help on",
-        "One evening, my American English teacher Walter and I set out for a 100-kilometre ride on the Tianfu Greenway. He did not know the local roads, so I showed him how to use Baidu Maps. Something straightforward for me mattered much more to someone riding here for the first time.",
-        "That ride, together with the help I received on Mont Ventoux, made the information gap between residents and visitors clearer to me. RideCN is my response: a place to find cycling rules, travel preparation and emergency information before riding in China.",
+        "The help I received on Mont Ventoux made me more aware of the difficulties riders face in an unfamiliar place. RideCN is my way of passing that kindness on: bringing together cycling rules, travel preparation and emergency information for people visiting China.",
         "I am still a student, and the website still has room to improve. Please tell me if you spot an error or want to share your experience of cycling here. If you come to Chengdu, you are welcome to get in touch. When I have time, I would be happy to join you for a ride, simply as another cyclist rather than as a commercial guide."
       ]
     ],
-    "contact": "Get in touch with Zhou"
+    "contact": "Get in touch with Zhou",
+    "intro": "I’m Zhou, a high school student and road cyclist from Chengdu. I have ridden in more than ten cities around the world and started my school’s cycling club. Through RideCN, I hope to pass on the kindness I have received on the road to riders visiting China.",
+    "tags": [
+      "Chengdu",
+      "Road cycling",
+      "10+ cities",
+      "Student-led"
+    ],
+    "read": "My story"
   },
   "fr": {
     "title": "À propos de moi",
@@ -105,20 +119,20 @@
     "role": "Chengdu · Lycéen · Créateur de RideCN",
     "quote": "Moi aussi, j’ai été ce cycliste qui ne savait plus où aller. J’aimerais à mon tour aider ceux qui arrivent en Chine à trouver leur chemin.",
     "gallery": "Les couleurs du voyage",
-    "hint": "Faites défiler les photos verticalement le long d’une spirale. Les boutons et le clavier permettent aussi de naviguer.",
+    "hint": "Glisser · Balayer · Flèches",
     "prev": "Photo précédente",
     "next": "Photo suivante",
     "original": "Voir l’original",
     "cover": "Zhou à vélo sur une route bordée de roseaux",
     "alts": [
       "Un cycliste sur des rochers au bord de la mer au crépuscule",
-      "Un cycliste penché sur son vélo devant un paysage vert",
+      "Une sortie à vélo de contre-la-montre au soleil",
+      "Un cycliste penché sur son guidon",
       "Un cycliste en jaune près des champs",
-      "Une sortie à vélo sous les arbres et le ciel bleu",
-      "Un cycliste entre un versant montagneux et des conifères",
       "Un cycliste avec son vélo sur un sommet dégagé",
       "Une sortie à vélo le long d’un mur de pierre au-dessus de la côte",
-      "Une sortie à vélo au bord de la mer bleue"
+      "Une sortie à vélo au bord de la mer bleue",
+      "Deux vélos de route au bord de l’eau"
     ],
     "sections": [
       [
@@ -139,11 +153,18 @@
       ],
       [
         "Transmettre l’aide reçue",
-        "Un soir, mon professeur d’anglais américain, Walter, et moi sommes partis pour 100 kilomètres sur la voie verte Tianfu. Comme il ne connaissait pas les routes locales, je lui ai montré comment utiliser Baidu Maps. Ce qui me semblait évident était précieux pour quelqu’un qui roulait ici pour la première fois.",
-        "Cette sortie et l’aide reçue sur le mont Ventoux m’ont fait mieux comprendre l’écart d’information entre habitants et visiteurs. RideCN est ma façon d’y répondre : réunir des informations sur la circulation à vélo, la préparation du voyage et les urgences pour ceux qui viennent en Chine.",
+        "L’aide reçue sur le mont Ventoux m’a rendu plus attentif aux difficultés des cyclistes dans un lieu inconnu. RideCN est ma façon de transmettre cette bienveillance : réunir les règles de circulation, les conseils de préparation et les informations d’urgence pour ceux qui viennent en Chine.",
         "Je suis encore lycéen et le site peut toujours être amélioré. Si vous remarquez une erreur ou souhaitez raconter votre expérience, écrivez-moi. Vous pouvez aussi me contacter en venant à Chengdu. Si mon emploi du temps le permet, je serai heureux de partager une sortie avec vous, entre cyclistes, sans prestation commerciale de guidage."
       ]
     ],
-    "contact": "Contacter Zhou"
+    "contact": "Contacter Zhou",
+    "intro": "Je suis Zhou, lycéen et cycliste sur route à Chengdu. J’ai roulé dans plus de dix villes à travers le monde et créé le club cycliste de mon école. Avec RideCN, je souhaite transmettre aux cyclistes qui visitent la Chine la bienveillance reçue sur la route.",
+    "tags": [
+      "Chengdu",
+      "Vélo de route",
+      "Plus de 10 villes",
+      "Projet lycéen"
+    ],
+    "read": "Mon histoire"
   }
 }

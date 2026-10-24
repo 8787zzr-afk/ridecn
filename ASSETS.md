@@ -23,3 +23,6 @@ All three files below are CC0 1.0 public-domain dedications, checked on 24 Octob
 ## Personal profile photographs — 2026-10-24
 
 Nine photographs supplied by Zhou for his personal profile. Copied byte-for-byte from the supplied JPEG files, without resizing or recompression. Display dimensions are bounded with CSS. Locations are not inferred from the images. Original files are available via the gallery links.
+
+### Personal gallery additions — 2026-10-24
+Three further original JPEGs supplied by Zhou: new-a.jpeg (107097), new-b.jpeg (ee800c…), new-c.jpeg (173). Source bytes preserved. Gallery crops are CSS-only; clicking a photograph opens the unmodified file.

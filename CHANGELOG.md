@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-24 — Immersive personal gallery redesign
+
+- Replaced the vertical photo list with a dark, layered 3D helix beside the personal introduction, with dragging, touch, wheel, arrow buttons and keyboard controls.
+- Added three supplied original JPEGs, removed several portrait shots from the display, and applied display-only focal cropping. Removed all visible photo captions.
+- Removed the Walter experience from all three personal-page translations, keeping the Mont Ventoux story.
+- Validation: build, localization and link checks; desktop and narrow-screen browser interaction checks.
+
 ## 2026-10-24 — Personal profile and original-photo spiral
 
 - Added About me pages in English, Chinese and French, with the founder’s cycling background, Mont Ventoux experience and reasons for helping visiting riders.

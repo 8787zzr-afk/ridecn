@@ -136,5 +136,7 @@ for(const lang of ['en','zh','fr']){
  assert.equal((html.match(/class="helix-card"/g)||[]).length,8);
  for(const code of ['en','zh','fr'])assert(html.includes(`href="${base}/${code}/me/"`));
  assert(html.includes(`src="${base}/assets/profile.js"`));
+ assert(!html.includes('Walter'));assert(!html.includes('<figcaption'));
+ for(const name of ['new-a.jpeg','new-b.jpeg','new-c.jpeg'])assert(html.includes(name));
 }
-console.log('PASS: personal story, eight full-image gallery cards, navigation and controls in three languages.');
+console.log('PASS: personal story, eight caption-free 3D gallery photos, navigation and controls in three languages.');
